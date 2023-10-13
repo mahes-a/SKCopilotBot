@@ -1,0 +1,24 @@
+[import](common.lg)
+
+# SendActivity_Greeting()
+[Activity
+    Text = ${SendActivity_Greeting_text()}
+]
+
+# SendActivity_Greeting_text()
+- Welcome to your bot.
+
+# SendActivity_EvGC2A()
+[Activity
+    Attachments = ${json(SendActivity_EvGC2A_attachment_bZZDIN())}
+]
+
+# SendActivity_EvGC2A_attachment_bZZDIN()
+- ${dialog.res.content.adaptiveCard}
+# SendActivity_E1enuK()
+[Activity
+    Text = ${SendActivity_E1enuK_text()}
+]
+
+# SendActivity_E1enuK_text()
+- Fetching Responses...
